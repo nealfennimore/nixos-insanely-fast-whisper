@@ -19,6 +19,7 @@ mkShell {
     py.torch-bin
     py.torchaudio-bin
     py.torchmetrics
+    py.torchvision-bin
     py.virtualenv
   ];
 

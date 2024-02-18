@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 insanely-fast-whisper \
-    --file-name $1 \
+    --file-name "$1" \
     --task transcribe \
     --language english \
     --device-id 0 \
